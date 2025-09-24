@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button data-filter="all">All</button>
+    <button data-filter="tech">Tech</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="news">News</button>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <div class="gallery-item" data-category="tech">
+        <img src="image/manuel-preciado-rzD08HT_YYI-unsplash.png" alt="img">
+    </div>
+    <div class="gallery-item " data-category="nature">
+        <img src="image/mountain-9761503_1920.jpg" alt="img">
+    </div>
+    <div class="gallery-item " data-category="nature">
+        <img src="image/pied-cuckoo-9750790_1920.jpg" alt="img">
+    </div>
+    <div class="gallery-item " data-category="news">
+        <img src="image/technology-9786542_1920.jpg" alt="img">
+    </div>
+    <div class="gallery-item " data-category="nature">
+        <img src="image/torii-9557603_1920.jpg" alt="img">
+    </div>
+    <div class="gallery-item " data-category="tech">
+        <img src="image/web-development-8734249_1920.png" alt="img">
+    </div>
+    <div class="gallery-item" data-category="news">
+        <img src="image/website-3227784_1920.jpg" alt="img">
+    </div>
+
+   
+</div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Expanded View" />
+    <div class="nav">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
